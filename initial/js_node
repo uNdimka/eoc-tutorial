@@ -1,7 +1,8 @@
-function multTwo(a: number, b: number): number {
-    // your code here
+export function multTwo(a: number, b: number): number {
     return 0;
 }
+
+export const multTwo = (a, b) => a*b
 
 import * as assert from 'assert';
 console.log('Example:');
