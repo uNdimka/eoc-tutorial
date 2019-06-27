@@ -15,7 +15,7 @@ TESTS = {
             "answer": 6
         },
         {
-            "input": [0, 1],
+            "input": [0, 1, 'we'],
             "answer": 0
         }
     ],
