@@ -19,6 +19,7 @@ class Referee(RefereeRank):
         ENV_NAME.PYTHON: '''
 
 def cover(func, in_data):
+    raise AttributeError
     return func(*in_data)
 
     ''',
