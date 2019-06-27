@@ -11,7 +11,7 @@ class Referee(RefereeRank):
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "mult_two"
-    FUNCTION_NAMES = {
+    FUNCTION_NAMES = {[
         "python_3": "mult_two",
         "js_node": "multTwo"
     }
